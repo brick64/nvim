@@ -24,6 +24,10 @@ List of installed plugins:
 - telescope.nvim
 - telescope-ui-select.nvim
 - nvim-treesitter
+- nvim-dap
+- nvim-nio
+- nvim-dap-ui
+- nvim-dap-python
 
 List of keybinds (Leader key is Space):
 - <C-e>: Open neo-tree on the left
@@ -35,3 +39,5 @@ List of keybinds (Leader key is Space):
 - gd: Go to definition
 - <Leader>ca: Code actions
 - <Leader>gf: Format
+- <Leader>dt: Toggle breakpoint
+- <Leader>dc: Start debugger
