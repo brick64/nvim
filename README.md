@@ -28,6 +28,7 @@ List of installed plugins:
 - nvim-nio
 - nvim-dap-ui
 - nvim-dap-python
+- lazygit.nvim
 
 List of keybinds (Leader key is Space):
 - <C-e>: Open neo-tree on the left
@@ -41,3 +42,4 @@ List of keybinds (Leader key is Space):
 - <Leader>gf: Format
 - <Leader>dt: Toggle breakpoint
 - <Leader>dc: Start debugger
+- <Leader>lg: Open Lazygit
