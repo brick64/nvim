@@ -31,6 +31,7 @@ List of installed plugins:
 - lazygit.nvim
 - lazydev.nvim
 - gitsigns.nvim
+- auto-session.nvim
 
 List of keybinds (Leader key is Space):
 - <C-e>: Open neo-tree on the left
