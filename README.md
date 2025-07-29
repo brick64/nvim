@@ -45,4 +45,5 @@ List of keybinds (Leader key is Space):
 - <Leader>dt: Toggle breakpoint
 - <Leader>dc: Start debugger
 - <Leader>lg: Open Lazygit
+- <Leader>gp: Open hunk in window
 
