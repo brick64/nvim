@@ -1,13 +1,12 @@
 return {
   "CRAG666/betterTerm.nvim",
-  opts = {
-    position = "bot",
-    size = 15,
-    show_tabs = false,
-  },
   config = function ()
     local betterTerm = require('betterTerm')
-    betterTerm.setup()
+    betterTerm.setup({
+      show_tabs = false,
+    })
     vim.keymap.set({"n", "t"}, "<C-;>", betterTerm.open, { desc = "Open terminal"})
+    vim.keymap.set({"n"}, "<leader>tt", betterTerm.select, { desc = "Select terminal"})
+    vim.keymap.set('t','<Esc><Esc>', '<C-\\><C-n>:q<CR>', {})
   end
 }

@@ -50,4 +50,7 @@ List of keybinds (Leader key is Space):
 - <Leader>gp: Open hunk in window
 - <Leader>e: Execute file
 - <C-;>: Open Terminal
+- <C-t>: Create new terminal tab
+- <Esc><Esc>: Exit terminal
+- <Leader>tt: Select terminal
 
