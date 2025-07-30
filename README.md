@@ -31,7 +31,8 @@ List of installed plugins:
 - lazygit.nvim
 - lazydev.nvim
 - gitsigns.nvim
-- auto-session.nvim
+- code_runner.nvim
+- betterTerm.nvim
 
 List of keybinds (Leader key is Space):
 - <C-e>: Open neo-tree on the left
@@ -47,4 +48,6 @@ List of keybinds (Leader key is Space):
 - <Leader>dc: Start debugger
 - <Leader>lg: Open Lazygit
 - <Leader>gp: Open hunk in window
+- <Leader>e: Execute file
+- <C-;>: Open Terminal
 
