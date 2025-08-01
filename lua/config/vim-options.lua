@@ -3,6 +3,7 @@ local set = vim.opt
 set.shiftwidth=2
 set.number = true
 set.clipboard:append("unnamedplus")
+set.virtualedit = 'all'
 vim.cmd("noremap <Up> <Nop>")
 vim.cmd("noremap <Down> <Nop>")
 vim.cmd("noremap <Left> <Nop>")
