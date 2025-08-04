@@ -33,6 +33,9 @@ List of installed plugins:
 - gitsigns.nvim
 - code_runner.nvim
 - betterTerm.nvim
+- hardtime.nvim
+- nvim-notify
+- precognition.nvim
 
 List of keybinds (Leader key is Space):
 - <C-e>: Open neo-tree on the left

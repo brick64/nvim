@@ -8,7 +8,10 @@ return {
 	  "python3 -u '$dir/$fileName'"
 	},
       },
-      mode = 'better_term',
+      mode = 'float',
+      float = {
+	border = 'rounded'
+      }
     })
     vim.keymap.set('n','<Leader>e', ':RunCode<CR>', {})
   end
